@@ -5,13 +5,13 @@ export const SIZES = ['xs', 'sm', 'md', 'lg'];
 export const VIEWPORTS = {
   sm: '48em',
   md: '64em',
-  lg: '75em',
+  lg: '92em',
 };
 
 export const CONTAINER_SIZES = {
   sm: '49em',
   md: '65em',
-  lg: '76em',
+  lg: '91em',
 };
 
 export const FLEX_OPTIONS = {
@@ -53,8 +53,8 @@ export const FLEX_OPTIONS = {
 export const DEFAULT_COLUMN_STYLES = {
   boxSizing: 'border-box',
   flex: '0 0 auto',
-  paddingRight: '0.5rem',
-  paddingLeft: '0.5rem',
+  paddingRight: '1rem',
+  paddingLeft: '1rem',
 };
 
 export const MISC_STYLES = {
@@ -64,8 +64,8 @@ export const MISC_STYLES = {
     flex: '0 1 auto',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    marginRight: '-0.5rem',
-    marginLeft: '-0.5rem',
+    marginRight: '0.0rem',
+    marginLeft: '0.0rem',
   },
   rowReversed: {
     flexDirection: 'row-reverse',
