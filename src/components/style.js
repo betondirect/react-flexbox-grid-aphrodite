@@ -1,4 +1,4 @@
-import { StyleSheet } from 'aphrodite-local-styles';
+import { StyleSheet } from 'aphrodite';
 import styles from '../grid/grid';
 
 // Create the styles and store them in memory so we
