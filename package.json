@@ -40,7 +40,8 @@
   },
   "homepage": "https://github.com/patrickml/react-flexbox-grid-aphrodite#readme",
   "devDependencies": {
-    "aphrodite": "^1.2.0",
+    "aphrodite-local-styles": "0.6.2",
+
     "babel": "^6.5.2",
     "babel-cli": "^6.14.0",
     "babel-eslint": "^7.0.0",
