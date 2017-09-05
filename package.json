@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "build:docs": "./node_modules/.bin/jsdoc --configure .jsdoc.json --verbose",
-    "build": "cross-env BABEL_ENV=commonjs ./node_modules/.bin/babel src --out-dir lib",
+    "build": "cross-env BABEL_ENV=commonjs node ./node_modules/babel-cli/bin/babel src --out-dir lib",
     "clean:docs": "./node_modules/.bin/rimraf ./docs",
     "clean": "./node_modules/.bin/rimraf lib",
     "cover": "npm run jest -- --coverage",
@@ -40,9 +40,6 @@
   },
   "homepage": "https://github.com/patrickml/react-flexbox-grid-aphrodite#readme",
   "devDependencies": {
-    "aphrodite-local-styles": "0.6.2",
-
-    "babel": "^6.5.2",
     "babel-cli": "^6.14.0",
     "babel-eslint": "^7.0.0",
     "babel-jest": "^17.0.2",
@@ -61,7 +58,6 @@
     "jsdoc": "^3.4.3",
     "jsdoc-babel": "^0.2.1",
     "minami": "^1.1.1",
-    "react": "^15.4.1",
     "react-addons-test-utils": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-test-renderer": "^15.4.1",
@@ -76,5 +72,8 @@
       "/tests/"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "15.5.4",
+    "aphrodite-local-styles": "0.6.2"
+  }
 }
